@@ -82,7 +82,7 @@ def get_requirements(filename='requirements.txt'):
 if __name__ == '__main__':
     write_version_py()
     setup(
-        name='facexlib',
+        name='klabs.facexlib',
         version=get_version(),
         description='Basic face library',
         long_description=readme(),
